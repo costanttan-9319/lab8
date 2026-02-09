@@ -13,3 +13,11 @@ function handleRoll(diceValue) {
     // 3. Perform a Unit Test right in the console
     runUnitTest(outcome, diceValue);
 }
+//Test function to verify
+function runUnitTest(result, maxSides) {
+    if (result >= 1 && result <= maxSides) {
+        console.log("TEST PASSED");
+    } else {
+        console.error("TEST FAILED");
+    }
+}
