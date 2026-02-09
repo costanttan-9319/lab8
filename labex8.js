@@ -18,3 +18,11 @@ function runUnitTest(result, maxSides) {
         console.error("TEST FAILED");
     }
 }
+
+//running unit test
+runUnitTest(5,6)
+runUnitTest(8,6)
+runUnitTest(2,6)
+runUnitTest(5,10)
+runUnitTest(18,10)
+runUnitTest(12,10)
